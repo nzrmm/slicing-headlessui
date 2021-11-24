@@ -22,98 +22,93 @@
 
             <div class="px-2 py-4">
                 <ul class="flex space-x-8">
-                    <li><a href="#" class="py-2 text-xl font-medium border-b-2 border-teal-500">React</a></li>
-                    <li><a href="#" class="py-2 text-xl font-medium text-white/60">Vue</a></li>
+                    <li><a href="#" class="list-item border-b-2 border-teal-500">React</a></li>
+                    <li><a href="#" class="list-item text-white/60">Vue</a></li>
                 </ul>
             </div>
 
             <div class="flex flex-wrap -mx-4">
-                <div class="w-3/12 px-4 py-4 mb-6">
-                    <div class="w-full mb-4 bg-gradient-to-r from-violet-500 to-blue-400 h-40 rounded-xl flex justify-center items-center">
-                         <div
-                            class="px-6 py-4 bg-white opacity-25 rounded-xl shadow flex justify-center items-center font-bold mr-4">
+                <div class="card">
+                    <div class="card-header bg-gradient-to-r from-violet-500 to-blue-400">
+                         <div class="card-header-title">
                             <span class="text-violet-900">Dropdown</span>
                         </div>
                     </div>
-                    <span class="ml-2 font-medium">Menu (Dropdown)</span> 
+                    <span class="card-content-title">Menu (Dropdown)</span> 
                 </div>
 
-                <div class="w-3/12 px-4 py-4 mb-6">
-                    <div class="w-full mb-4 bg-gradient-to-r from-amber-400 to-orange-500 h-40 rounded-xl flex justify-center items-center">
-                        <div
-                            class="px-6 py-4 bg-white opacity-25 rounded-xl shadow flex justify-center items-center font-bold mr-4">
+                <div class="card">
+                    <div class="card-header bg-gradient-to-r from-amber-400 to-orange-500">
+                        <div class="card-header-title">
                             <span class="text-amber-900">Select</span>
                         </div>
                     </div>
-                    <span class="ml-2 font-medium">Listbox (Select)</span> 
+                    <span class="card-content-title">Listbox (Select)</span> 
                 </div>
 
-                <div class="w-3/12 px-4 py-4 mb-6">
-                    <div class="w-full mb-4 bg-gradient-to-r from-green-500 to-teal-500 h-40 rounded-xl flex justify-center items-center">
-                        <div
-                            class="px-6 py-4 bg-white opacity-25 rounded-xl shadow flex justify-center items-center font-bold mr-4">
+                <div class="card">
+                    <div class="card-header bg-gradient-to-r from-green-500 to-teal-500">
+                        <div class="card-header-title">
                             <span class="text-green-900">Toggle</span>
                         </div>
                     </div>
-                    <span class="ml-2 font-medium">Switch (Toggle)</span> 
+                    <span class="card-content-title">Switch (Toggle)</span> 
                 </div>
 
-                <div class="w-3/12 px-4 py-4 mb-6">
-                    <div class="w-full mb-4 bg-gradient-to-r from-fuchsia-500 to-purple-500 h-40 rounded-xl flex justify-center items-center">
-                         <div
-                            class="px-6 py-4 bg-white opacity-25 rounded-xl shadow flex justify-center items-center font-bold mr-4">
+                <div class="card">
+                    <div class="card-header bg-gradient-to-r from-fuchsia-500 to-purple-500">
+                         <div class="card-header-title">
                             <span class="text-fuchsia-900">Disclosure</span>
                         </div>
                     </div>
-                    <span class="ml-2 font-medium">Disclosure</span> 
+                    <span class="card-content-title">Disclosure</span> 
                 </div>
 
-                <div class="w-3/12 px-4 py-4 mb-6">
-                    <div class="w-full mb-4 bg-gradient-to-r from-sky-400 to-blue-600 h-40 rounded-xl flex justify-center items-center">
-                         <div
-                            class="px-6 py-4 bg-white opacity-25 rounded-xl shadow flex justify-center items-center font-bold mr-4">
+                <div class="card">
+                    <div class="card-header bg-gradient-to-r from-sky-400 to-blue-600">
+                         <div class="card-header-title">
                             <span class="text-sky-900">Modal</span>
                         </div>
                     </div>
-                    <span class="ml-2 font-medium">Dialog (Modal)</span> 
+                    <span class="card-content-title">Dialog (Modal)</span> 
                 </div>
 
-                <div class="w-3/12 px-4 py-4 mb-6">
-                    <div class="w-full mb-4 bg-gradient-to-r from-orange-400 to-rose-500 h-40 rounded-xl flex justify-center items-center">
-                        <div
-                            class="px-6 py-4 bg-white opacity-25 rounded-xl shadow flex justify-center items-center font-bold mr-4">
+                <div class="card">
+                    <div class="card-header bg-gradient-to-r from-orange-400 to-rose-500">
+                        <div class="card-header-title">
                             <span class="text-orange-900">Popaver</span>
                         </div>
                     </div>
-                    <span class="ml-2 font-medium">Popaver</span> 
+                    <span class="card-content-title">Popaver</span> 
                 </div>
-                <div class="w-3/12 px-4 py-4 mb-6">
-                    <div class="w-full mb-4 bg-gradient-to-r from-sky-400 to-sky-500 h-40 rounded-xl flex justify-center items-center">
-                          <div
-                            class="px-6 py-4 bg-white opacity-25 rounded-xl shadow flex justify-center items-center font-bold mr-4">
+                
+                <div class="card">
+                    <div class="card-header bg-gradient-to-r from-sky-400 to-sky-500">
+                          <div class="card-header-title">
                             <span class="text-sky-900">Radio Group</span>
                         </div>
                     </div>
-                    <span class="ml-2 font-medium">Radio Group</span> 
+                    <span class="card-content-title">Radio Group</span> 
                 </div>
-                <div class="w-3/12 px-4 py-4 mb-6">
-                    <div class="w-full mb-4 bg-gradient-to-r from-pink-500 to-rose-500 h-40 rounded-xl flex justify-center items-center">
-                          <div
-                            class="px-6 py-4 bg-white opacity-25 rounded-xl shadow flex justify-center items-center font-bold mr-4">
+
+                <div class="card">
+                    <div class="card-header bg-gradient-to-r from-pink-500 to-rose-500">
+                          <div class="card-header-title">
                             <span class="text-pink-900">Transition</span>
                         </div>
                     </div>
-                    <span class="ml-2 font-medium">Transition</span> 
+                    <span class="card-content-title">Transition</span> 
                 </div>
-                 <div class="w-3/12 px-4 py-4 mb-6">
-                    <div class="w-full mb-4 bg-gradient-to-r from-sky-500 to-blue-600 h-40 rounded-xl flex justify-center items-center">
-                          <div
-                            class="px-6 py-4 bg-white opacity-25 rounded-xl shadow flex justify-center items-center font-bold mr-4">
+
+                 <div class="card">
+                    <div class="card-header bg-gradient-to-r from-sky-500 to-blue-600">
+                          <div class="card-header-title">
                             <span class="text-sky-900">Tabs</span>
                         </div>
                     </div>
-                    <span class="ml-2 font-medium">Tabs</span> 
+                    <span class="card-content-title">Tabs</span> 
                 </div>
+
             </div>
         </main>
 
@@ -125,6 +120,24 @@
     </div>
 </template>
 
-<style lang="scss" scoped>
+<style lang="css" scoped>
+    .list-item {
+        @apply py-2 text-xl font-medium;
+    }
+    
+    .card {
+        @apply w-3/12 px-4 py-4 mb-6;
+    }
 
+    .card-header {
+        @apply w-full mb-4 h-40 rounded-xl flex justify-center items-center;
+    }
+
+    .card-header-title {
+        @apply px-6 py-4 bg-white opacity-25 rounded-xl shadow flex justify-center items-center font-bold mr-4
+    }
+
+    .card-content-title {
+        @apply ml-2 font-medium;
+    }
 </style>
