@@ -8,6 +8,11 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      container : {
+        padding : {
+          DEFAULT : '1.2rem'
+        }
+      },
       colors : {
         'fuchsia' : colors.fuchsia,
         'violet' : colors.violet,
